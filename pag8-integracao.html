@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Como Integrar HTML e CSS</title>
+    <link rel="stylesheet" href="pag1.css">
+</head>
+<body>
+    <h1>COMO INTEGRAR CSS E HTML</h1>
+    <p>Já que o CSS ajuda a estilizar páginas na internet, podemos dizer que ele e o HTML andam juntos no desenvolvimento web. E para que um possa ajudar o outro, nesse caso, para que o CSS possa estilizar o que está no HTML, primeiro precisamos colocar ambos para trabalhar em conjunto.
+    <br><br>
+    Existem três maneiras principais de integrar o CSS em um documento HTML: inline, internal e external. Cada uma tem suas próprias características e usos.</p>
+
+    <ul class="lista-passos">
+        <li>
+        <strong style="font-size: 25px;">Inline CSS:</strong> O CSS inline é aplicado diretamente em uma tag HTML usando o atributo style. Essa abordagem é útil para pequenas alterações rápidas, mas não é recomendada para estilos em larga escala, pois pode deixar o código desorganizado. Por exemplo, vamos ver um título não estilizado:
+        <br><br>
+        <p class="centro">&lt;h1&gt;Título Vermelho&lt;/h1&gt;</p>
+        <div class="centro">
+            <img src="Imagens/IMG - 16.png" alt="Título não estilizado" style="height: 60px; width:170px;">
+        </div>
+        <br><br>
+        Agora, vamos ver esse mesmo título, porém com alguma estilização:
+        <br><br>
+        <p class="centro">&lt;h1 style="color: red; font-size: 24px;"&gt;Título Vermelho&lt;/h1&gt;</p>
+        <div class="centro">
+            <img src="Imagens/IMG - 17.png" alt="Título estilizado" style="height: 60px; width:170px;">
+        </div>
+        <br><br>
+        Aqui, estamos estilizando o título de forma direta, o que pode ser prático, mas não muito eficiente.
+        </li>
+        <br><br><br>
+        <li>
+        <strong style="font-size: 25px;">Internal CSS:</strong>O CSS interno é definido dentro da tag &lt;style&gt; no cabeçalho &lt;head&gt; do documento HTML. Isso permite aplicar estilos a vários elementos em uma única página sem poluir o HTML. Um exemplo seria:
+        <br><br>
+        <div class="centro">
+            <img src="Imagens/IMG - 18.png" alt="Exemplo de Internal CSS">
+        </div>
+        <br><br>
+        Vamos ver como vai ficar no navegador:
+        <br><br>
+        <div class="centro">
+            <img src="Imagens/IMG - 19.png" alt="Exemplo de Internal CSS no Navegador">
+        </div>
+        <br><br>
+        Nesse caso, todos os elementos &lt;h1&gt; na página vão ter a cor branca e ficarão centralizados na página, os elementos &lt;p&gt; terão o tamanho da sua fonte aumentado e também ficarão centralizados, e o fundo da página ficará na cor vermelha. 
+        </li>
+        <br><br><br>
+        <li>
+        <strong style="font-size: 25px;">External CSS:</strong> O CSS externo é o método mais recomendado para projetos maiores. Semelhante à criação de um arquivo HTML, você vai apenas mudar o que vem depois do ponto, no lugar de .html, você vai digitar .css. Assim, um novo arquivo será criado de forma separada, tudo que você precisa fazer é o vincular ao seu HTML usando a tag &lt;link&gt;. Isso mantém seu código organizado e permite reutilizar estilos em várias páginas. Exemplo:
+        <br><br>
+        <div class="centro">
+            <img src="Imagens/IMG - 21.png" alt="Linkando o CSS ao HTML">
+        </div>
+        <br><br>
+        Você viu como fica o HTML, já com o arquivo CSS aberto, as coisas são assim:
+        <br><br>
+        <div class="centro">
+            <img src="Imagens/IMG - 22.png" alt="CSS aberto">
+        </div>
+        <br><br>
+        E é assim que a página vai ficar no seu navegador:
+        <br><br>
+        <div class="centro">
+            <img src="Imagens/IMG - 23.png" alt="Exemplo de External CSS no Navegador">
+        </div>
+        <br><br>
+        Assim, todas as páginas que se vincularem a esse arquivo .css terão o mesmo estilo, tornando a manutenção muito mais fácil.
+        <br><br>
+        Esses métodos de integração oferecem flexibilidade e eficiência na estilização de páginas web.
+        </li>
+    </ul>
+    <br><br><br>
+    <h1>HORA DE APRENDER PRATICANDO</h1>
+    <p>Agora que você sabe como integrar o CSS ao HTML, vamos criar um exemplo básico de uma página web combinando os dois.</p>
+    <br><br><br>
+    <div class="btn">
+        <p><a href="pag7-intro-css.html" class="botao">VOLTAR</a></p>
+        <p><a href="pag9-criando-uma-pag-simples.htm" class=botao>PRÓXIMO</a></p>
+    </div>
+</body>
+</html>

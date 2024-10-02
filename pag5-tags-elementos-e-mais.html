@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estrutura Básica do HTML</title>
+    <link rel="stylesheet" href="pag1.css">
+</head>
+<body>
+    <h1>TAGS E ELEMENTOS</h1>
+    <p><strong>Tags</strong> são como as placas de sinalização que indicam o que está acontecendo em uma página. Elas ficam entre os sinais &lt; &gt;. Por exemplo, em &lt;p&gt;Texto aqui&lt;/p&gt;, temos duas placas: &lt;p&gt; diz "aqui começa um parágrafo" e &lt;/p&gt; diz "aqui termina o parágrafo".
+    <br><br>
+    <strong>Elementos</strong>, por outro lado, são o que essas placas estão sinalizando. Eles incluem a placa de início, o que está escrito entre as placas e a placa de fim. Então, usando o mesmo exemplo, o elemento completo é &lt;p&gt;Texto aqui&lt;/p&gt;. É a combinação da sinalização e do conteúdo que forma uma unidade.</p>
+    <div>
+        <img src="Imagens/IMG - 7.png" alt="Tags e Elementos">
+    </div>   
+    <p>Em resumo, as tags são os sinais que organizam tudo, enquanto os elementos são o que realmente vemos e interagimos na página.</p>
+    <br><br><br>
+    <h1>ANINHAMENTO</h1>
+    <p>É importante destacar que podemos inserir um elemento dentro de outro, o que chamamos de aninhamento. Vamos usar o exemplo anterior, mas com as alterações já feitas:</p>
+    <div class="centro">
+        <img src="Imagens/IMG - 7.1.png" alt="Exemplo de Aninhamento">
+    </div>
+    <p>É fundamental que o elemento mais interno seja fechado antes do externo. Portanto, o &lt;/b&gt; deve aparecer antes do &lt;/p&gt;. Se trocarmos a ordem, acabamos cometendo um erro. Experimente testar isso no seu arquivo HTML e veja o resultado no seu navegador.</p>
+    <br><br><br>
+    <h1>ATRIBUTOS</h1>
+    <p><strong>Atributos</strong> são como pequenos rótulos que você pode adicionar às placas de sinalização (tags) para fornecer mais detalhes sobre o que está acontecendo. Eles ajudam a personalizar e definir o comportamento dos elementos na página HTML.</p>
+    <br><br><br>
+    <h1>COMO FUNCIONAM OS ATRIBUTOS</h1>
+    <p>Os atributos são colocados dentro da tag de abertura, logo após o nome da tag. Vamos usar o mesmo exemplo de antes:</p>
+    <div>
+        <img src="Imagens/IMG - 8.png" alt="Exemplo de atributo">
+    </div>
+    <p>A tag &lt;p&gt; (que é a placa de sinalização) recebe um atributo chamado class, e "editar" é o valor desse atributo. O atributo class permite que você dê a um elemento um nome que pode ser usado mais tarde para aplicar estilos e outras características. Pense nisso como um rótulo que você coloca em um grupo de elementos, facilitando a aplicação de mudanças de forma consistente. Por exemplo, se você quiser que vários parágrafos tenham a mesma cor ou fonte, basta usar o mesmo nome de classe em todos eles. Assim, fica muito mais fácil organizar e estilizar sua página.</p>
+    <p>Um atributo sempre deve ter dois componentes principais:</p>
+    <ol class="lista-passos">
+        <li><strong style="font-size: 20px;">Nome do Atributo:</strong> É a identificação que você usa para especificar qual informação ou comportamento está sendo definido. Nesse caso, o nome do nosso atributo é class.</li>
+        <li><strong style="font-size: 20px;">Valor:</strong> É a informação que você quer associar ao nome do atributo. O valor deve ser colocado entre aspas. Nesse exemplo é o "editar".</li>
+    </ol>
+    <br><br><br>
+    <h1>ESTRUTURA BÁSICA DO HTML</h1>
+    <p>Um documento HTML começa com uma estrutura simples, mas fundamental para qualquer página web. Aqui está um exemplo:</p>
+    <div class="imagem-container">
+        <img src="Imagens/IMG - 9.png" alt="Estrutura básica do HTML">
+    </div>
+    <br><br><br>
+    <h1>EXPLICAÇÃO DA ESTRUTURA</h1>
+    <ul class="lista-passos">
+        <li><strong style="font-size: 20px;">&lt;!DOCTYPE html&gt;:</strong> Declara que este documento é HTML5 (a 5ª e mais atualizada versão do HTML).
+        </li>
+        <li><strong style="font-size: 20px;">&lt;html&gt;:</strong> Elemento raiz que contém toda a página.
+        </li>
+        <li><strong style="font-size: 20px;">&lt;head&gt;:</strong> Esta seção contém informações sobre a página que não são exibidas diretamente no conteúdo. Inclui:
+        </li>
+            <ul>
+             <li>
+            <strong style="font-size: 17px;">Metatags:</strong> Como a &lt;meta charset="UTF-8"&gt;, que define a codificação de caracteres, garantindo que os textos sejam exibidos corretamente. Outra importante é a &lt;meta name="viewport"&gt;, que otimiza a visualização em dispositivos móveis.</li>
+            <li>
+            <strong style="font-size: 17px;">&lt;title&gt;:</strong> Define o título da página, que aparece na aba do navegador e nos resultados de busca.
+            </li>
+            </ul>
+        <li>
+        <strong style="font-size: 20px;">&lt;body&gt;</strong> É aqui que todo o conteúdo visível da página reside. Isso inclui textos, imagens, links e outros elementos interativos. Por exemplo, as tags &lt;h1&gt; e &lt;p&gt; são usadas para criar títulos e parágrafos, respectivamente.
+        </li>
+    </ul>
+    <p>Essas partes juntas formam a espinha dorsal de qualquer página HTML, permitindo que navegadores a interpretem e exibam corretamente.</p>
+    <p>Agora que você sabe sobre tags, aninhamento, atributos e a estrutura básica de um arquivo HTML, é hora de conhecer um pouco mais.</p>
+    <br><br><br>
+    <div class="btn">
+        <p><a href="pag4-primeiro-arquivo.html" class="botao">VOLTAR</a></p>
+        <p><a href="pag6-principais-tags.html" class=botao>PRÓXIMO</a></p>
+    </div>
+    
+</body>
+</html>

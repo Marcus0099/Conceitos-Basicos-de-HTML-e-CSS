@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: monospace;
+    background-color: #1C1C1C;
+    text-align: center;
+    display: block;
+    padding-top: 20px;
+    margin-bottom: 25px;
+}
+
+h1{
+    color: #F5F5F5;
+    padding: 15px 30px;
+    font-size: 30px;
+}
+
+p{
+    color: #F5F5F5;
+    padding: 15px 30px;
+    font-size: 16px;
+    text-align: justify;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.botao{
+    display: inline-block;
+    width: 150px;
+    padding: 15px;
+    font-size: 20px;
+    color: #F5F5F5;
+    background-color: #363636;
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+    transition: background-color 0.3s;
+}
+
+.botao:hover{
+    background-color: #F5F5F5;
+    color: #1C1C1C;
+}
